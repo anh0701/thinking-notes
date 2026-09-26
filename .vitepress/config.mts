@@ -20,41 +20,26 @@ export default defineConfig({
         sidebar: {
           '/algorithms/': [
             {
-              text: 'Algorithms',
-              items: [
-                {
-                  text: 'Overview',
-                  link: '/algorithms/',
-                },
-              ],
+              text: 'Overview',
+              link: '/algorithms/',
             },
           ],
 
           '/problem-solving/': [
             {
-              text: 'Problem Solving',
-              items: [
-                {
-                  text: 'Overview',
-                  link: '/problem-solving/',
-                },
-                {
-                  text: 'Power of Two',
-                  link: '/problem-solving/power-of-two',
-                },
-              ],
+              text: 'Overview',
+              link: '/problem-solving/',
+            },
+            {
+              text: 'Power of Two',
+              link: '/problem-solving/power-of-two',
             },
           ],
 
           '/programming/': [
             {
-              text: 'Programming',
-              items: [
-                {
-                  text: 'Overview',
-                  link: '/programming/',
-                },
-              ],
+              text: 'Overview',
+              link: '/programming/',
             },
           ],
         },
@@ -76,41 +61,26 @@ export default defineConfig({
         sidebar: {
           '/vi/algorithms/': [
             {
-              text: 'Thuật toán',
-              items: [
-                {
-                  text: 'Tổng quan',
-                  link: '/vi/algorithms/',
-                },
-              ],
+              text: 'Tổng quan',
+              link: '/vi/algorithms/',
             },
           ],
 
           '/vi/problem-solving/': [
             {
-              text: 'Giải quyết vấn đề',
-              items: [
-                {
-                  text: 'Tổng quan',
-                  link: '/vi/problem-solving/',
-                },
-                {
-                  text: 'Kiểm tra lũy thừa của 2',
-                  link: '/vi/problem-solving/power-of-two',
-                },
-              ],
+              text: 'Tổng quan',
+              link: '/vi/problem-solving/',
+            },
+            {
+              text: 'Kiểm tra lũy thừa của 2',
+              link: '/vi/problem-solving/power-of-two',
             },
           ],
 
           '/vi/programming/': [
             {
-              text: 'Lập trình',
-              items: [
-                {
-                  text: 'Tổng quan',
-                  link: '/vi/programming/',
-                },
-              ],
+              text: 'Tổng quan',
+              link: '/vi/programming/',
             },
           ],
         },
